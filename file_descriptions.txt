@@ -1,0 +1,30 @@
+File Descriptions:
+
+cifar_sample_data: This directory was used to test reading from directory.
+
+annoy_index: a file we use for building an annoy index of embeddings.
+
+aug_pipeline: a file we use for running augmentation operations on images, which allows us to simulate the difference
+that can occur between real images that are considered similar and also allows us to insert duplicates into the
+test set for the purpose of measuring the performance of our algorithm.
+
+dataset: this file contains the Dataset class. The Dataset class is designed to manage image data and provide
+functionality to detect and track duplicates in the dataset. The class has the ability to inject duplicates
+into the dataset and evaluate the performance of the algorithm in finding duplicates.
+
+final model encoder: this file contains our final model.
+
+get_data: a file we use to get the cifar data (cifar10).
+
+get_jpegs: a file we use to get the cifar_sample_data.
+
+helper_funcs: a file where we have placed general functions.
+
+load_autoencoder: the purpose of the file is to load our final model.
+
+main_benchmark, main_from_array, main_from_dir, main_remove_all_dups, main_viz: files we used to test the functionality of the code.
+
+requirements: a file we use to install necessary packages (tensorflow,annoy,networkx,gradio).
+
+
+

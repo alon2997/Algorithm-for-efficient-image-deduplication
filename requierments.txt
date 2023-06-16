@@ -1,0 +1,4 @@
+tensorflow == 2.11.0
+annoy == 1.17.1
+networkx == 3.0
+gradio == 3.16.0
